@@ -30,6 +30,7 @@ public class example extends HttpServlet {
 		// TODO Auto-generated method stub
 		final PrintWriter out = resp.getWriter();
 		out.println("Hello World");
+		out.println("bezdim uje");
 		super.doGet(req, resp);
 	}
 }
